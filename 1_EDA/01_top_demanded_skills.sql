@@ -9,7 +9,6 @@
 
 SELECT
     sd.skills,
-    jpf.job_id,
     COUNT(jpf.*) AS demand_count
 FROM
     job_postings_fact AS jpf
